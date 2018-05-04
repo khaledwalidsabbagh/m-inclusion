@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_vowels"
+            android:icon="@drawable/vowels"
+            android:title="@string/vowelTabItem"
+            app:actionViewClass="android.widget.TextView"
+            android:layout_width="match_parent" />
+
+        <item
+            android:id="@+id/nav_consonants"
+            android:icon="@drawable/consonants"
+            android:title="@string/consonantTabItem"
+            app:actionViewClass="android.widget.TextView"
+            android:layout_width="match_parent" />
+
+
+        <item
+            android:id="@+id/nav_multiplechoice"
+            android:icon="@drawable/multiplechoice"
+            android:title="@string/mcVowelItem"
+            android:layout_width="match_parent" />
+
+        <item
+            android:id="@+id/nav_cmultiplechoice"
+            android:icon="@drawable/multiplechoice"
+            android:title="@string/mcConsonantItem"
+            android:layout_width="match_parent" />
+
+        <item
+            android:id="@+id/nav_fillintheblank"
+            android:icon="@drawable/multiplechoice"
+            android:title="@string/mcFillInTheBlankItem"
+            android:layout_width="match_parent" />
+
+
+
+        <item
+            android:id="@+id/nav_dialogue"
+            android:icon="@drawable/dialogue"
+            android:title="@string/commonDialoguesItem"
+            android:layout_width="match_parent"/>
+
+        <item
+            android:id="@+id/nav_intro"
+            android:title="@string/introItem"
+            android:layout_width="match_parent"/>
+
+        <item
+            android:id="@+id/nav_sendreport"
+            android:title="@string/reportItem"
+            android:layout_width="match_parent"/>
+
+        <item
+            android:id="@+id/nav_cook_and_learn"
+            android:title="@string/cook_and_learn"
+            android:layout_width="match_parent"/>
+
+        <!--<item-->
+            <!--android:id="@+id/nav_disable_tutorial"-->
+            <!--android:title="تفعيل دليل البتطبيق"-->
+            <!--android:layout_width="match_parent"/>-->
+        <!--<item-->
+        <!--android:id="@+id/nav_slideshow"-->
+        <!--android:icon="@drawable/ic_menu_slideshow"-->
+        <!--android:title="Slideshow" />-->
+        <!--<item-->
+        <!--android:id="@+id/settings"-->
+        <!--android:icon="@drawable/ic_menu_manage"-->
+        <!--android:title="Settings" />-->
+    </group>
+
+    <!--<item android:title="Communicate">-->
+    <!--<menu>-->
+    <!--<item-->
+    <!--android:id="@+id/nav_share"-->
+    <!--android:icon="@drawable/ic_menu_share"-->
+    <!--android:title="Share" />-->
+    <!--<item-->
+    <!--android:id="@+id/nav_send"-->
+    <!--android:icon="@drawable/ic_menu_send"-->
+    <!--android:title="Send" />-->
+    <!--</menu>-->
+    <!--</item>-->
+
+</menu>

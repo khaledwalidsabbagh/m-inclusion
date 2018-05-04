@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottomBarBack"
+        android:layout_width="match_parent"
+        android:icon="@drawable/ic_more_horiz_black_24dp"
+        android:title="Back" />
+
+    <item
+        android:id="@+id/bottomBarMore"
+        android:layout_width="match_parent"
+        android:icon="@drawable/ic_more_horiz_black_24dp"
+        android:title="More" />
+    <!--// app:actionViewClass="android.widget.TextView"-->
+
+    <item
+        android:id="@+id/bottomBarPractice"
+        android:layout_width="match_parent"
+        android:icon="@drawable/ic_more_horiz_black_24dp"
+        android:title="Practice" />
+</menu>

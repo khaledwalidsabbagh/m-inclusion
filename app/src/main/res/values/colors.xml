@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7993a1</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="introPagesBg">#DCDDDC</color>
+    <color name="introPageIndicatorBg">#DCDDDC</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#fbf2eb</color>
+    <color name="colorText">#454545</color>
+    <!--<color name="firstRowDialogue">#e5e5e5</color>-->
+    <!--<color name="secondRowDialogue">#d1d1d1</color>-->
+    <color name="secondRowDialogue">#d7dad6</color>
+
+    <color name="longDialogueRow">#f1b7b5</color>
+    <color name="titleColor">#ffffff</color>
+    <color name="correctAnswer">#8ebe63</color>
+    <color name="wrongAnswer">#c85350</color>
+    <color name="toolbarBackground">#a8aec1</color>
+    <!--a8aec1-->
+    <color name="nextExercise">#f78154</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="textLight">#fff</color>
+    <color name="background">#ddd</color>
+    <color name="white_bg">#ffffff</color>
+    <color name="firstRowDialogue">#e3ebbf</color>
+    <color name="dialogueBackground">#f5f1ee</color>
+    <color name="introTextColor">#454545</color>
+</resources>

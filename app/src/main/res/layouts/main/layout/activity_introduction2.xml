@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/toolbarBackground"
+    android:orientation="vertical"
+    tools:context="com.minclusion.iteration1.IntroductionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/introduction_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/next"
+            android:layout_alignParentTop="true"
+            android:layout_weight="0.9"
+            android:background="@color/toolbarBackground">
+
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/previous"
+            android:layout_alignStart="@+id/previous"
+            android:layout_below="@+id/introduction_pager"
+            android:layout_toEndOf="@+id/previous"
+            android:layout_toRightOf="@+id/previous"
+            android:background="@color/introPageIndicatorBg"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/previous"
+                android:src="@drawable/prev_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:layout_margin="16dp"
+                android:clickable="true"
+                app:backgroundTint="@color/introPageIndicatorBg"
+                app:fabSize="normal"
+                android:rotationY="@integer/locale_mirror_flip"/>
+
+            <RadioGroup
+                android:id="@+id/pagination"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:backgroundTint="@color/colorAccent">
+
+            </RadioGroup>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/next"
+                android:src="@drawable/next_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_margin="16dp"
+                android:clickable="true"
+                app:backgroundTint="@color/introPageIndicatorBg"
+                app:fabSize="normal"
+                android:rotationY="@integer/locale_mirror_flip"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

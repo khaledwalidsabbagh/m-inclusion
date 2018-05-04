@@ -1,0 +1,765 @@
+{
+  "exercises": [
+    {
+      "id": "0",
+      "type": "mc",
+      "question": "",
+      "image": "",
+      "level": "one",
+      "video": "u_long",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "bara",
+          "answer": "false",
+          "mp3": "bara"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "hur",
+          "answer": "true",
+          "mp3": "hur"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "fint",
+          "answer": "false",
+          "mp3": "fint"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "hälsa",
+          "answer": "false",
+          "mp3": "halsa"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "type": "mc",
+      "question": "",
+      "image": "",
+      "level": "one",
+      "video": "ae_short",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "bussen",
+          "answer": "false",
+          "mp3": "bussen"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "fyra",
+          "answer": "false",
+          "mp3": "fyra"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "åtta",
+          "answer": "false",
+          "mp3": "atta"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "hälsa",
+          "answer": "true",
+          "mp3": "halsa"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "mc",
+      "question": "",
+      "image": "",
+      "level": "one",
+      "video": "i_short",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "något",
+          "answer": "false",
+          "mp3": "nagot"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "göra",
+          "answer": "false",
+          "mp3": "gora"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "inga",
+          "answer": "true",
+          "mp3": "inga"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "bra",
+          "answer": "false",
+          "mp3": "bra"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "mc",
+      "question": "",
+      "image": "",
+      "level": "two",
+      "video": "ae_long",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "ätit",
+          "answer": "true",
+          "mp3": "atit"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "gå",
+          "answer": "false",
+          "mp3": "ga"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "höger",
+          "answer": "false",
+          "mp3": "hoger"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "hälsa",
+          "answer": "false",
+          "mp3": "halsa"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "mc",
+      "question": "",
+      "image": "",
+      "level": "two",
+      "video": "oe_long",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "varsågod",
+          "answer": "false",
+          "mp3": "varsagod"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "lördag",
+          "answer": "true",
+          "mp3": "lordag"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "liten",
+          "answer": "false",
+          "mp3": "liten"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "länge",
+          "answer": "false",
+          "mp3": "lange"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "mc",
+      "question": "",
+      "image": "",
+      "level": "one",
+      "video": "aa_short",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "många",
+          "answer": "true",
+          "mp3": "manga"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "bra",
+          "answer": "false",
+          "mp3": "bra"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "göra",
+          "answer": "false",
+          "mp3": "gora"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "hälsa",
+          "answer": "false",
+          "mp3": "halsa"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "mc",
+      "question": "",
+      "image": "",
+      "level": "two",
+      "video": "i_long",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "fint",
+          "answer": "true",
+          "mp3": "fint"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "fram",
+          "answer": "false",
+          "mp3": "fram"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "minuter",
+          "answer": "false",
+          "mp3": "minuter"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "hjälpen",
+          "answer": "false",
+          "mp3": "hjalpen"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "mc",
+      "question": "",
+      "image": "",
+      "level": "two",
+      "video": "o_long",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "ätit",
+          "answer": "false",
+          "mp3": "atit"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "verkar",
+          "answer": "false",
+          "mp3": "verkar"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "stor",
+          "answer": "true",
+          "mp3": "stor"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "hörs",
+          "answer": "false",
+          "mp3": "hors"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "mc",
+      "question": "",
+      "image": "",
+      "level": "two",
+      "video": "ae_long",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "härifrån",
+          "answer": "true",
+          "mp3": "harifran"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "varsågod",
+          "answer": "false",
+          "mp3": "varsagod"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "kvitto",
+          "answer": "false",
+          "mp3": "kvitto"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "höger",
+          "answer": "false",
+          "mp3": "hoger"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "mc",
+      "question": "",
+      "image": "",
+      "level": "two",
+      "video": "o_short",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "något",
+          "answer": "false",
+          "mp3": "nagot"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "liten",
+          "answer": "false",
+          "mp3": "liten"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "tyvärr",
+          "answer": "false",
+          "mp3": "tyvarr"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "bra",
+          "answer": "true",
+          "mp3": "bra"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "mc",
+      "question": "",
+      "image": "",
+      "level": "one",
+      "video": "y_short",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "tyvärr",
+          "answer": "true",
+          "mp3": "tyvarr"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "behöver",
+          "answer": "false",
+          "mp3": "behover"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "ha",
+          "answer": "false",
+          "mp3": "ha"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "hjälpen",
+          "answer": "false",
+          "mp3": "hjalpen"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "type": "mc",
+      "question": "",
+      "image": "",
+      "level": "one",
+      "video": "aa_long",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "då",
+          "answer": "true",
+          "mp3": "da"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "vilja",
+          "answer": "false",
+          "mp3": "vilja"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "välkommen",
+          "answer": "false",
+          "mp3": "valkommen"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "hur",
+          "answer": "false",
+          "mp3": "hur"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "type": "mc",
+      "question": "",
+      "image": "",
+      "level": "two",
+      "video": "a_long",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "möjligtvis",
+          "answer": "false",
+          "mp3": "mojligtvis"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "mataffär",
+          "answer": "true",
+          "mp3": "mataffar"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "väntar",
+          "answer": "false",
+          "mp3": "vantar"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "försenad",
+          "answer": "false",
+          "mp3": "forsenad"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "type": "mc",
+      "question": "",
+      "image": "",
+      "level": "two",
+      "video": "y_long",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "tyvärr",
+          "answer": "false",
+          "mp3": "tyvarr"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "härifrån",
+          "answer": "false",
+          "mp3": "harifran"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "behöver",
+          "answer": "false",
+          "mp3": "behover"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "fyra",
+          "answer": "true",
+          "mp3": "fyra"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "type": "mc",
+      "question": "",
+      "image": "",
+      "level": "two",
+      "video": "u_short",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "försenad",
+          "answer": "false",
+          "mp3": "forsenad"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "letar",
+          "answer": "false",
+          "mp3": "letar"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "söndagar",
+          "answer": "false",
+          "mp3": "sondagar"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "bussen",
+          "answer": "true",
+          "mp3": "bussen"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "type": "mc",
+      "question": "",
+      "image": "",
+      "level": "two",
+      "video": "a_short",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "fyra",
+          "answer": "true",
+          "mp3": "fyra"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "härifrån",
+          "answer": "false",
+          "mp3": "harifran"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "särskilt",
+          "answer": "false",
+          "mp3": "sarskilt"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "glas",
+          "answer": "false",
+          "mp3": "glas"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "type": "mc",
+      "question": "",
+      "image": "",
+      "level": "one",
+      "video": "oe_short",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "hur",
+          "answer": "false",
+          "mp3": "hur"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "tack",
+          "answer": "false",
+          "mp3": "tack"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "öppet",
+          "answer": "true",
+          "mp3": "oppet"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "stor",
+          "answer": "false",
+          "mp3": "stor"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "type": "mc",
+      "question": "",
+      "image": "",
+      "level": "one",
+      "video": "i_long",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "hörs",
+          "answer": "false",
+          "mp3": "hors"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "lite",
+          "answer": "true",
+          "mp3": "lite"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "veta",
+          "answer": "false",
+          "mp3": "veta"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "därborta",
+          "answer": "false",
+          "mp3": "darborta"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "type": "mc",
+      "question": "",
+      "image": "",
+      "level": "two",
+      "video": "a_long",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "rakt",
+          "answer": "true",
+          "mp3": "rakt"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "minuter",
+          "answer": "false",
+          "mp3": "minuter"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "behöver",
+          "answer": "false",
+          "mp3": "behover"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "särskilt",
+          "answer": "false",
+          "mp3": "sarskilt"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "type": "mc",
+      "question": "",
+      "image": "",
+      "level": "two",
+      "video": "e_short",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "hörnet",
+          "answer": "true",
+          "mp3": "hornet"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "vet",
+          "answer": "false",
+          "mp3": "vet"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "letar",
+          "answer": "false",
+          "mp3": "letar"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "tyvärr",
+          "answer": "false",
+          "mp3": "tyvarr"
+        }
+      ]
+    }
+
+  ]}
+	

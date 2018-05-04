@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/statement"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:gravity="top|center">
+    <!--</LinearLayout>-->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/rowPractice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <!--android:layout_centerInParent="true"-->
+            <ToggleButton
+                android:id="@+id/recordPractice"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/check"
+                android:textOff=""
+                android:textOn=""
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/replayPractice"
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:layout_toRightOf="@+id/recordPractice"
+                android:src="@drawable/replay_practice"
+                android:visibility="invisible"
+                tools:ignore="UnknownId" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rowStatement"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@+id/rowPractice"
+            android:orientation="horizontal">
+            <!--//  android:layout_alignParentRight="true"-->
+            <!--android:layout_marginLeft="40dp"-->
+
+            <TextView
+                android:id="@+id/textViewStatement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:inputType="textMultiLine"
+                android:maxWidth="240dp"
+                android:text="TextView"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/rowOperations"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/playSmt"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="4dp" />
+
+                <ToggleButton
+                    android:id="@+id/translateSmt"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/translate2"
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+        </LinearLayout>
+        <!--android:background="@drawable/bubble3"-->
+        <!--android:inputType="textMultiLine"-->
+        <!--android:shape="rectangle"-->
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+
+

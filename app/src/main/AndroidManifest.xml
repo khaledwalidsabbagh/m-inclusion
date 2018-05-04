@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.minclusion.iteration1">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name=".MinclusionApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/logo"
+        android:theme="@style/AppTheme"
+        android:supportsRtl="true">
+        <activity android:name=".CommonDialogues.controller.dialogue.DailyDialogueActivity" />
+        <activity android:name=".CommonDialogues.controller.dialogue.MoreOnDialogueActivity" />
+        <activity android:name=".CommonDialogues.controller.game.ExerciseActivity" />
+        <activity android:name=".CommonDialogues.controller.PhoneticActivity" />
+        <activity android:name=".CommonDialogues.controller.game.FillInTheBlankActivity" />
+        <activity android:name=".cookandlearn.controller.DishActivity" />
+        <activity android:name=".cookandlearn.controller.GuessImageGameActivitiy" />
+        <activity android:name=".cookandlearn.controller.DragAndDropWordToImageGame" />
+
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.minclusion.iteration1"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <!-- <activity -->
+        <!-- android:name=".MainActivity" -->
+        <!-- android:label="Minclusion Alpha" -->
+        <!-- android:theme="@style/AppTheme"> -->
+
+
+        <!-- </activity> -->
+        <activity android:name=".IntroductionActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Intro"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_intro"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".CommonDialogues.controller.LettersActivity" />
+        <activity android:name=".CommonDialogues.controller.dialogue.CategoryDialogueActivity" />
+        <activity
+            android:name=".cookandlearn.controller.IngredientActivity"
+            android:label="@string/title_activity_ingredient"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".cookandlearn.controller.CookingStepActivity"
+            android:label="@string/title_activity_cooking_step"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

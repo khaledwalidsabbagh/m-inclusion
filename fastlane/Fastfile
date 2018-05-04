@@ -1,0 +1,73 @@
+# Customise this file, documentation can be found here:
+# https://github.com/fastlane/fastlane/tree/master/fastlane/docs
+# All available actions: https://docs.fastlane.tools/actions
+# can also be listed using the `fastlane actions` command
+
+# Change the syntax highlighting to Ruby
+# All lines starting with a # are ignored when running `fastlane`
+
+# If you want to automatically update fastlane if a new version is available:
+# update_fastlane
+
+# This is the minimum version number required.
+# Update this, if you use features of a newer version
+fastlane_version "2.62.1"
+
+default_platform :android
+
+platform :android do
+  before_all do
+    ENV["SLACK_URL"] = "https://hooks.slack.com/services/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"
+  end
+
+  desc "Runs all the tests"
+  lane :test do
+    gradle(task: "test")
+  end
+
+  desc "Submit a new Beta Build to Crashlytics"
+  lane :beta do
+    gradle(task: "assembleRelease")
+    # upload to Google Play
+    supply(track: "alpha")
+    # crashlytics
+    # sh "your_script.sh"
+    # You can also use other beta testing services here
+  end
+
+  desc "Deploy a new version to the Google Play"
+  lane :alpha do
+    gradle(task: "clean")
+    increment_version_code
+    gradle(task: "assembleRelease")
+    supply(track: "alpha")
+  end
+
+  # You can define as many lanes as you want
+
+after_all do |lane|
+    # This block is called, only if the executed lane was successful
+
+    slack(
+      message: "New Minclusion Alpha on the Play store!",
+      channel: "#internal-development",
+      success: true
+    )
+  end
+
+  error do |lane, exception|
+    slack(
+      message: "Build failed.",
+      channel: "#internal-development",
+      message: exception.message,
+      success: false
+    )
+  end
+end
+
+
+# More information about multiple platforms in fastlane: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Platforms.md
+# All available actions: https://docs.fastlane.tools/actions
+
+# fastlane reports which actions are used
+# No personal data is sent or shared. Learn more at https://github.com/fastlane/enhancer

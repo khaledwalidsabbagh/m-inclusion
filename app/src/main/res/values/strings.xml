@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Minclusion</string>
+    <string name="facebook_app_id">859338184243219</string>
+    <string name="fb_login_protocol_scheme">fb859338184243219</string>
+
+    <!-- Strings related to login -->
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+    <string name="title_activity_intro">Intro</string>
+    <string name="intro_se">
+        Hej och välkommen till Minclusion –appen! Vill du kunna prata med andra på svenska? Appen ger dig möjlighet att träna på vanliga användbara ord och fraser.
+        \n \nVår forskning visar att fokuserad uttalsträning med återkoppling och många
+        repetitioner gör att du känner dig säkrare när du talar.
+        Du kommer att känna dig säkrare på att prata ju mer du tränar.
+        Det här programmet lär dig att känna dig som hemma med det svenska språket.
+        Du får möjlighet att lära dig några vanliga svenska fraser och uttryck som du sedan kan använda
+        i vardagen.
+    </string>
+
+    <string name="intro_ar">مرحبا وأهلا وسهلا فيكم في تطبيق Minclusion. حابين تحكوا مع الناس يلي حوليكم باللغة السويدية؟ من خلال تطبيق Minclusion صار فيكم تتمرنوا على أكثر الجمل والكلمات المستخدمة بحياتكم اليومية من خلالال قراءتكم واستماعكم لمحادثات يومية سجلوهاأشخاص سويديين.  \n \n مهارات المحادثة عندكم رح تتحسن من خلال ممارستك للتطبيق يلي تم تصميمه تبعا لبحوث علمية بمجال تعلم اللغات. كل ما تمرنتوا اكتر كل ما حتشعروا بالأمان والثقة الأكبر وانتو عمتحكو سويدي
+رح تتعلموا السويدي من خلال تمرينكم للجمل والكلمات الموجودة ضمن التطبيق. اسمعوا وسجلوا الجمل والكلمات الموجودة بالتطبيق لحتى تحسوا انو صرتوا تحكوها وتنطقوها متل ما بيحكوها السويدين. \n \n
+    </string>
+
+
+    <string name="dialog_mc_message">. يمكنك هنا اختبار ما تعلمته سابقا ضمن البرنامج. سيتم الان عرض مجموعة من الاسئلة. عليك الاستماع لفيديو يحتوي على حرف علة وبعدها عليك اختيار الكلمة التي تتضمن هذا الحرف. تتكون الأبجدية السويدية من 9 حروف علة: a, e, i, o, u, y, å, ä, ö تتم تهجيتها إما بمد الحرف طويلا او قصيرا. مثال على ذلك: حرف ال a في كلمة bra يكون ممتدا لفترة طويلة بينما كلمة bara يكون فيها لفظ الحرف a قصيرا.  </string>
+    <string name="description1"> هنا يمكنك ممارسة الكلمات والعبارات المفيدة. سوف تشعر بالأمان أكثر ان تتحدث كلما تمرنت.</string>
+    <string name="title1"> تعلم اللغة السويدية مع تطبيق Minclusion</string>
+
+    <string name="description2">يمكنك الاستماع الى تسجيل العبارات من المواقف اليومية. تعلم من خلال تكرار العبارات والكلمات عدة مرات.</string>
+    <string name="title2"></string>
+    <string name="title_activity_ingredient">IngredientActivity</string>
+
+    <string name="title_activity_cooking_step">CookingStepActivity</string>
+
+    <string name="show_cooking_steps">Cooking steps</string>
+    <string name="learn_cook">Steps</string>
+    <string name="next">التالي</string>
+    <string name="continue_to_next">متابعة</string>
+    <string name="show_hint">Hint</string>
+    <string name="description3">تعلم اللغة السويدية من خلال المواقف اليومية.</string>
+    <string name="collaborator">I samarbete med Folkuniversitetet</string>
+
+    <string name="drawerHeader">لتكامل أسرع ضمن المجتمع السويدي</string>
+    <string name="vowelTabItem">أتقن أحرف العلة </string>
+    <string name="consonantTabItem">تعلم الأحرف الساكنة </string>
+    <string name="mcConsonantItem">تمارين عن الأحرف الساكنة </string>
+    <string name="mcVowelItem">تمارين عن أحرف العلة </string>
+    <string name="commonDialoguesItem">تمرن من خلال المحادثات المسجلة </string>
+    <string name="introItem">مقدمة عن البرنامج </string>
+    <string name="reportItem">إرسال تقرير </string>
+    <string name="minSpeed">أقل سرعة</string>
+    <string name="maxSpeed">أقصى سرعة</string>
+    <string name="listen">إستمع</string>
+    <string name="record">سجل</string>
+    <string name="replay">إختبر</string>
+    <string name="closeWindow">أغلق النافذة</string>
+    <string name="shortVowel">حرف على قصير</string>
+    <string name="longVowel">حرف على طويل</string>
+    <string name="listenVowel">استمع إلى حرف العلة</string>
+    <string name="watchVideo">انقر هنا لمشاهدة الفيديو</string>
+    <string name="chooseLevel">الرجاء تحديد مستوى الصعوبة قبل اغلاق النافذة</string>
+    <string name="currentScore">النتيجة الحالية:</string>
+    <string name="highestScore">أعلى نتيجة حققتها:</string>
+    <string name="endofExercises">نهاية التمارين. سيتم الآن إعادة التمارين</string>
+    <string name="beginnerLevel">مبتدئ</string>
+    <string name="mediumLevel">متوسط</string>
+    <string name="correctAnswer">جوابك صحيح</string>
+    <string name="wrongAnswer">جوابك خاطئ, الإجابة الصحيحة هي:</string>
+    <string name="missedSpelling">إكتب إجابتك قبل الانتقال إلى السؤال التالي</string>
+    <string name="ok">حسنا:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="openDrawer">انقر هنا لمشاهدة محتوى القائمة</string>
+    <string name="mcFillInTheBlankItem">إملأ الفراغات</string>
+
+    <string name="cook_and_learn">اطبخ وتعلم</string>
+    <string name="meals">وجبات رئيسية</string>
+    <string name="appetizers">مقبلات</string>
+    <string name="fika">فيكا</string>
+    <string name="ingredients_title">المكونات</string>
+    <string name="cooking_step">الخطوات</string>
+    <string name="practice">تمرن</string>
+
+    <!-- TODO Khaled please re-translate this. I used google translate to get a rough approximation -->
+    <string name="drag_and_drop_game_instructions">Dra rätt ord till bilden</string>
+
+</resources>

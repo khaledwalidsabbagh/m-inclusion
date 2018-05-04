@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.minclusion.iteration1.MoreOnDialogueActivity">
+
+    <LinearLayout
+        android:id="@+id/youtubeVideo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtDialogueTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_vertical"
+            android:inputType="textMultiLine"
+            android:onClick="onClick"
+            android:text="TextView"
+            android:textSize="18sp" />
+
+        <!--<com.google.android.youtube.player.YouTubePlayerView-->
+        <!--android:id="@+id/youtube_player"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:visibility="visible" />-->
+        <!--<VideoView-->
+        <!--android:id="@+id/youtube_player"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="250dp" />-->
+
+        <com.pierfrancescosoffritti.youtubeplayer.player.YouTubePlayerView
+            android:id="@+id/youtube_player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/youtube_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_vertical" />
+        -->
+
+        <TextView
+            android:id="@+id/txtClickOnTheFilm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_vertical"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:onClick="onClick"
+            android:text="Click here to learn more about "
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/youtubePlayBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center|center_vertical"
+            android:background="@drawable/play_check" />
+
+    </LinearLayout>
+</LinearLayout>

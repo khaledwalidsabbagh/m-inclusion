@@ -1,0 +1,211 @@
+{
+  "ExerciseSession": [
+    {
+      "instruction": "",
+      "level": "one",
+      "id": "1",
+      "score": "",
+      "exerciseSteps": [
+        {
+          "question": [
+            {
+              "questionString": "f",
+              "renderQuestionStringAs": "",
+              "isGiven": "true",
+              "translation": "",
+              "hint": ""
+            },
+            {
+              "questionString": "y",
+              "renderQuestionStringAs": "",
+              "isGiven": "false",
+              "translation": "",
+              "hint": ""
+            },
+            {
+              "questionString": "r",
+              "renderQuestionStringAs": "",
+              "isGiven": "true",
+              "translation": "",
+              "hint": ""
+            },
+            {
+              "questionString": "a",
+              "renderQuestionStringAs": "",
+              "isGiven": "false",
+              "translation": "",
+              "hint": ""
+            }
+          ],
+          "choice": [
+            {
+              "choiceString": "a",
+              // the path string to content files or text
+              "renderChoiceAs": "text",
+              //how should the choice be displayed {image, video, text}
+              "status": ""
+              // cuurently active, removed by the user
+            },
+            {
+              "choiceString": "e",
+              "renderChoiceAs": "text",
+              "status": ""
+            },
+            {
+              "choiceString": "i",
+              "renderChoiceAs": "text",
+              "status": ""
+            },
+            {
+              "choiceString": "u",
+              "renderChoiceAs": "text",
+              "status": ""
+            },
+            {
+              "choiceString": "o",
+              "renderChoiceAs": "text",
+              "status": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+//      "question": "fyra",
+//      "image": "",
+//      "level": "one",
+//      "video": "fyra"
+//    },
+//    {
+//      "id": "2",
+//      "type": "puzzle",
+//      "question": "hur",
+//      "image": "",
+//      "level": "one",
+//      "video": "hur"
+//    },
+//    {
+//      "id": "3",
+//      "type": "puzzle",
+//      "question": "svart",
+//      "image": "",
+//      "level": "one",
+//      "video": "svartfarge"
+//    },
+//    {
+//      "id": "4",
+//      "type": "puzzle",
+//      "question": "svårt",
+//      "image": "",
+//      "level": "one",
+//      "video": "svart"
+//    },
+//    {
+//      "id": "5",
+//      "type": "puzzle",
+//      "question": "lite",
+//      "image": "",
+//      "level": "one",
+//      "video": "lite"
+//    },
+//    {
+//      "id": "6",
+//      "type": "puzzle",
+//      "question": "hälsa",
+//      "image": "",
+//      "level": "one",
+//      "video": "halsa"
+//    },
+//    {
+//      "id": "7",
+//      "type": "puzzle",
+//      "question": "stor",
+//      "image": "",
+//      "level": "one",
+//      "video": "stor"
+//    },
+//    {
+//      "id": "8",
+//      "type": "puzzle",
+//      "question": "låter",
+//      "image": "",
+//      "level": "one",
+//      "video": "later"
+//    },
+//    {
+//      "id": "9",
+//      "type": "puzzle",
+//      "question": "hörnet",
+//      "image": "",
+//      "level": "two",
+//      "video": "hornet"
+//    },
+//    {
+//      "id": "10",
+//      "type": "puzzle",
+//      "question": "mataffär",
+//      "image": "",
+//      "level": "two",
+//      "video": "mataffar"
+//    },
+//    {
+//      "id": "11",
+//      "type": "puzzle",
+//      "question": "behöver",
+//      "image": "",
+//      "level": "one",
+//      "video": "behover"
+//    },
+//    {
+//      "id": "12",
+//      "type": "puzzle",
+//      "question": "varsågod",
+//      "image": "",
+//      "level": "two",
+//      "video": "varsagod"
+//    },
+//    {
+//      "id": "13",
+//      "type": "puzzle",
+//      "question": "tyvärr",
+//      "image": "",
+//      "level": "two",
+//      "video": "tyvarr"
+//    },
+//    {
+//      "id": "14",
+//      "type": "puzzle",
+//      "question": "möjligtvis",
+//      "image": "",
+//      "level": "two",
+//      "video": "mojligtvis"
+//    },
+//    {
+//      "id": "15",
+//      "type": "puzzle",
+//      "question": "jättebra",
+//      "image": "",
+//      "level": "two",
+//      "video": "jattebra"
+//    },
+//    {
+//      "id": "16",
+//      "type": "puzzle",
+//      "question": "ursäkta mig",
+//      "image": "",
+//      "level": "two",
+//      "video": "ursaktamig"
+//    },
+//    {
+//      "id": "17",
+//      "type": "puzzle",
+//      "question": "upptagen",
+//      "image": "",
+//      "level": "two",
+//      "video": "upptagen"
+//    }
+//  ]
+//}
+	

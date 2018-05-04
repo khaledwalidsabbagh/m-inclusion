@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:id="@+id/feedbackControls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="top"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="7dp">
+
+            <TextView
+                android:id="@+id/playTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:checked="false"
+                android:text="@string/listen"
+                android:textColor="@color/colorText"
+                android:textStyle="bold" />
+
+            <ToggleButton
+                android:id="@+id/soundwavePlay_btn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/play_check"
+                android:checked="false"
+                android:textOff=""
+                android:textOn="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="7dp">
+
+            <TextView
+                android:id="@+id/recordTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:checked="false"
+                android:text="@string/record"
+                android:textColor="@color/colorText"
+                android:textStyle="bold" />
+
+            <ToggleButton
+                android:id="@+id/soundwaveRecord"
+                android:layout_width="40dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@drawable/check"
+                android:checked="false"
+                android:textOff=""
+                android:textOn="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="7dp">
+
+            <TextView
+                android:id="@+id/replayTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:checked="false"
+                android:text="@string/replay"
+                android:textColor="@color/colorText"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/soundwaveReplay"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.94"
+                android:src="@drawable/ic_replay" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/statement"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textViewselectedStatement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:onClick="onClick"
+            android:text="TextView"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/recordingLength"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/okLink"-->
+    <!--android:layout_width="150dp"-->
+    <!--android:layout_height="60dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginTop="14dp"-->
+    <!--android:gravity="center"-->
+    <!--android:text="OK"-->
+    <!--android:textColor="@color/longDialogueRow"-->
+    <!--android:textSize="16sp"-->
+    <!--android:textStyle="bold" />-->
+
+
+</LinearLayout>

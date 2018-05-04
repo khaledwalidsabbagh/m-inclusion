@@ -1,0 +1,41 @@
+# https://gist.github.com/iainconnor/8605514
+
+# Fastlane files
+Gemfile.lock
+fastlane/report.xml
+
+# Gradle generated files
+.gradle/
+/captures
+.externalNativeBuild
+
+# Built application files
+/build/
+
+# Crashlytics configuations
+com_crashlytics_export_strings.xml
+
+# Local configuration file (sdk path, etc)
+local.properties
+/local.properties
+
+# Signing files
+.signing/
+
+# User-specific configurations
+*.iml
+/.idea/
+/app/proguard-rules.pro
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+app/build.gradle
+app/build.gradle
+app/build.gradle
+*.gradle

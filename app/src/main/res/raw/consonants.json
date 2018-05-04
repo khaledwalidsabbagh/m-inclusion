@@ -1,0 +1,484 @@
+{
+  "exercises": [
+    {
+      "id": "3",
+      "type": "mc",
+      "question": "ringer",
+      "image": "",
+      "level": "one",
+      "video": "ringer",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "ng",
+          "answer": "true"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "ggn",
+          "answer": "false"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "gn",
+          "answer": "false"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "mc",
+      "question": "snart",
+      "image": "",
+      "level": "one",
+      "video": "snart",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "tr",
+          "answer": "false"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "rt",
+          "answer": "true"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "tt",
+          "answer": "false"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "mc",
+      "question": "öppet",
+      "image": "öppet",
+      "level": "one",
+      "video": "oppet",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "bb",
+          "answer": "false"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "pp",
+          "answer": "true"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "b",
+          "answer": "false"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "p",
+          "answer": "false"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "type": "mc",
+      "question": "barn",
+      "image": "",
+      "level": "one",
+      "video": "barn",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "bb",
+          "answer": "false"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "pp",
+          "answer": "false"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "b",
+          "answer": "true"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "p",
+          "answer": "false"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "type": "mc",
+      "question": "bussen",
+      "image": "",
+      "level": "one",
+      "video": "bussen",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "bb",
+          "answer": "false"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "pp",
+          "answer": "false"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "b",
+          "answer": "true"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "p",
+          "answer": "false"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "type": "mc",
+      "question": "väska",
+      "image": "",
+      "level": "one",
+      "video": "vaska",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "ff",
+          "answer": "false"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "f",
+          "answer": "false"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "v",
+          "answer": "true"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "mc",
+      "question": "inträffat",
+      "image": "",
+      "level": "two",
+      "video": "intraffat",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "ff",
+          "answer": "true"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "f",
+          "answer": "false"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "v",
+          "answer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "spelling",
+      "question": "sjuk",
+      "image": "",
+      "level": "two",
+      "video": "sjuk"
+    },
+    {
+      "id": "5",
+      "type": "mc",
+      "question": "förstår",
+      "image": "",
+      "level": "two",
+      "video": "forstar",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "sj",
+          "answer": "false"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "rs",
+          "answer": "true"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "sh",
+          "answer": "false"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "sch",
+          "answer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "mc",
+      "question": "därborta",
+      "image": "",
+      "level": "two",
+      "video": "darborta",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "tr",
+          "answer": "false"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "rt",
+          "answer": "true"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "tt",
+          "answer": "false"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "mc",
+      "question": "svårt",
+      "image": "",
+      "level": "two",
+      "video": "svart",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "rt",
+          "answer": "true"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "tr",
+          "answer": "false"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "tt",
+          "answer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "mc",
+      "question": "beskriva",
+      "image": "",
+      "level": "two",
+      "video": "beskriva",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "bb",
+          "answer": "false"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "pp",
+          "answer": "false"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "b",
+          "answer": "true"
+        },
+        {
+          "id": "3",
+          "ar": "",
+          "se": "p",
+          "answer": "false"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "type": "mc",
+      "question": "väntar",
+      "image": "",
+      "level": "one",
+      "video": "vantar",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "ff",
+          "answer": "false"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "f",
+          "answer": "false"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "v",
+          "answer": "true"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "type": "mc",
+      "question": "pratar",
+      "image": "",
+      "level": "two",
+      "video": "pratar",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "bb",
+          "answer": "false"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "pp",
+          "answer": "false"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "b",
+          "answer": "false"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "p",
+          "answer": "true"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "type": "mc",
+      "question": "följa",
+      "image": "",
+      "level": "two",
+      "video": "folja",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "ff",
+          "answer": "false"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "f",
+          "answer": "true"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "v",
+          "answer": "false"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "type": "mc",
+      "question": "alternativ",
+      "image": "",
+      "level": "two",
+      "video": "alternativ",
+      "answers": [
+        {
+          "id": "0",
+          "ar": "",
+          "se": "ff",
+          "answer": "false"
+        },
+        {
+          "id": "1",
+          "ar": "",
+          "se": "f",
+          "answer": "false"
+        },
+        {
+          "id": "2",
+          "ar": "",
+          "se": "v",
+          "answer": "true"
+        }
+      ]
+    },
+    {
+      "id": "0",
+      "type": "spelling",
+      "question": "länge",
+      "image": "",
+      "level": "two",
+      "video": "lange"
+    },
+    {
+      "id": "1",
+      "type": "spelling",
+      "question": "lugn",
+      "image": "",
+      "level": "two",
+      "video": "lugn"
+    }
+  ]}
+	

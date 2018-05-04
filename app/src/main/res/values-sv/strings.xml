@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minclusion</string>
+    <string name="drawerHeader">Lär dig svenska för snabbare integration</string>
+    <string name="commonDialoguesItem">Dialoger</string>
+    <string name="introItem">Om appen</string>
+    <string name="consonantTabItem">Lyssna på konsonanter</string>
+    <string name="mcVowelItem">Öva vokaler</string>
+    <string name="vowelTabItem">Lyssna på vokaler</string>
+    <string name="continue_to_next">uppföljning</string>
+    <string name="next">nästa</string>
+    <string name="reportItem">Skicka rapport</string>
+    <string name="mcConsonantItem">Öva konsonanter</string>
+    <string name="minSpeed">Mindre hastighet</string>
+    <string name="maxSpeed">Maximal hastighet</string>
+    <string name="listen">lyssna</string>
+    <string name="record">spela in</string>
+    <string name="replay">jämför</string>
+    <string name="closeWindow">Stäng fönstret</string>
+    <string name="shortVowel">kort vokal</string>
+    <string name="longVowel">lång vokal</string>
+    <string name="listenVowel">lyssna på vokalen</string>
+    <string name="watchVideo">Lyssna på ordet. Välj rätt stavning.</string>
+    <string name="chooseLevel">Ange nivå</string>
+    <string name="currentScore">Nuvarande resultat:</string>
+    <string name="highestScore">Toppbetyg:</string>
+    <string name="endofExercises">Avsluta övningar. Övningar kommer nu att återupptas</string>
+    <string name="beginnerLevel">Lätt</string>
+    <string name="mediumLevel">Medel</string>
+    <string name="correctAnswer">Rätt svar</string>
+    <string name="wrongAnswer">"Fel svar. Rätt svar är: "</string>
+    <string name="missedSpelling">Skriv ner ditt svar innan du går vidare till nästa fråga</string>
+    <string name="ok">Ok</string>
+    <string name="description1"> Här får du träna på användbara ord och fraser. Du kommer att känna dig säkrare på att prata ju mer du tränar.</string>
+    <string name="description2">Lyssna, spela in och repetera användbara fraser.</string>
+    <string name="description3">Lär dig svenska genom vardagssituationer.</string>
+    <string name="title1">Lär dig svenska med Minclusion-appen! </string>
+    <string name="openDrawer">Klicka här för att se innehållet i appen</string>
+    <string name="mcFillInTheBlankItem">Fyll i luckorna</string>
+
+
+    <string name="cook_and_learn">Laga &amp; lär</string>
+    <string name="meals">Huvudrättter</string>
+    <string name="appetizers">Smårätter</string>
+    <string name="fika">Fika</string>
+    <string name="ingredients_title">Ingredienser</string>
+    <string name="cooking_step">Steg</string>
+    <string name="practice">öva</string>
+
+
+    <string name="drag_and_drop_game_instructions">Dra rätt ord till bilden</string>
+</resources>

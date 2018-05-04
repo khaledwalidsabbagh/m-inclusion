@@ -1,0 +1,132 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nextExercise"
+    android:orientation="vertical"
+    tools:context=".cookandlearn.controller.CookingStepActivity">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/root_coordinator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/app_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:expanded="true">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:layout_collapseMode="pin" />
+        </android.support.design.widget.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/step_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/next"
+                android:layout_alignParentTop="true"
+                android:layout_weight="0.9">
+
+            </android.support.v4.view.ViewPager>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/previous"
+                    android:layout_alignStart="@+id/previous"
+                    android:layout_below="@+id/introduction_pager"
+                    android:layout_toEndOf="@+id/previous"
+                    android:layout_toRightOf="@+id/previous"
+                    android:background="@color/introPageIndicatorBg"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/previous"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|left"
+                        android:layout_margin="16dp"
+                        android:clickable="true"
+                        android:src="@drawable/prev_icon"
+                        app:backgroundTint="@color/introPageIndicatorBg"
+                        app:fabSize="normal"
+                        android:rotationY="@integer/locale_mirror_flip"/>
+
+                    <RadioGroup
+                        android:id="@+id/pagination"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@color/colorAccent"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                    </RadioGroup>
+
+                    <android.support.design.widget.CoordinatorLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/next"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|right"
+                            android:layout_margin="16dp"
+                            android:clickable="true"
+                            app:backgroundTint="@color/introPageIndicatorBg"
+                            app:fabSize="normal"
+                            android:rotationY="@integer/locale_mirror_flip"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:elevation="6dp"
+                            android:text="@string/practice"
+                            android:textColor="#00f"
+                            android:textSize="18dp"
+                            app:layout_anchor="@id/next"
+                            app:layout_anchorGravity="center"
+                            android:id="@+id/practice_text"/>
+
+                    </android.support.design.widget.CoordinatorLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer">
+
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>
